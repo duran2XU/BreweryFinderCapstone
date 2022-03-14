@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px color grey;
+    border-radius: radius;
+    display: grid; 
+    flex-direction: column;
+    justify-content: space-between;
+    grid-auto-flow: dense;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+
+.card.image {
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card.title {
+    height: 10rem;
+    object-fit: cover;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    gap: rem;
+    justify-content: center;
+}
+
+.card-title {
+    color: burlywood;
+    text-decoration: none;
+    text-transform: uppercase;
+
+  }
+
+ .card-text {
+     color: black
+ }
+
+  a.link {
+    color: white
+  }
+
+  a:link{
+      text-decoration: none
+  }
+
+  a:visited {
+      text-decoration: none
+  }
+
+  a:hover {
+      text-decoration: none
+  }
+
+  a:active {
+      text-decoration: none
+  }
+
+
+
+
